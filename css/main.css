@@ -14,99 +14,225 @@ select {
     src:url(../font/Lovelo.ttf);
 }
 
-.Lovelo {
+.Lovelo, header, body, .titr2 {
     font-family: Lovelo
 }
 
-.navbar-brand, .icon-chef-oeuvre::before, .icon-parcours::before {
+.icon-chef-oeuvre::before, .icon-agenda::before, .icon-parcours::before, .icon-search::before,
+ .icon-infos::before, span.logo-lille, h1.titre  {
     font-family: pba
 }
 
-.bg-image {
-    height: 493px;
-width: 100%;
-position: relative;
-overflow: hidden;
-box-shadow: 0 0 0 1000px rgba(0,0,0,0.2) inset;
+/*----------------------------------------navbar tablette/smartphone-----------------------------------*/
+
+nav.navbar {
+    background-color: #1D1D1E;
+    display: flex;
+    flex-flow: row;
+}
+
+a.nav-link{
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+a.icon, a.icon-search, a.icon-info {
+    width: 50px;
+    display: inline-block;
+}
+
+a.icon {
+    margin-right: auto;
+}
+
+#navbarSupportedContent {
+    position: absolute;
+    width: 100%;
+    height:87vh;
+    background-color: #1D1D1E;
+    top:78px;
+    left: 0px;
+    border: 6px solid white;
+    z-index: 1;
+}
+
+ul.navbar-nav {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.icon-chef-oeuvre::before, .icon-agenda::before, .icon-parcours::before {
+    margin-right: 10%;
+}
+
+.icon-chef-oeuvre::before, .icon-agenda::before, .icon-parcours::before, .icon-search::before, 
+.icon-infos::before {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.icon-chef-oeuvre::before {
+    content: "\e905";
+
+
+}
+
+.icon-agenda::before {
+    content: "\e901";
 }
 
 .icon-parcours::before {
     content: "\e922";
 }
 
-.icon-chef-oeuvre::before {
-    content: "\e905";
+.icon-search::before {
+    content: "\e92a";
+
 }
 
-.contenutitre {
-    display: inline-block;
-    position: absolute;
-    height: 340px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    border-top: 16px solid #FFF;
-    border-right: 16px solid #FFF;
-    height: 40px;
+.icon-infos::before {
+    content: "\e938";
 }
 
-.contenutitre2 {
-    display: inline-block;
-    position: absolute;
-    height: 340px;
+form input.form-control {
+    box-sizing: border-box;
+    width: 161px;
+    height: 36px;
+    border: 4px solid white;
+    border-radius: 0;
+    padding-right: 30px;
+    background-color: #1D1D1E;
+    color: white;
+}
+
+/*----------------------------------fin navbar tablette/smartphone---------------------------------------*/
+
+h1.titre {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    height: 25px;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    border-bottom: 16px solid #FFF;
-    border-right: 16px solid #FFF;
-    height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 0.07em;
+    color: #FFF;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.deco-tablette-haut {
+    width: 252.5px;
+    height: 20px;
+    border-top: 7px solid white;
+    border-right: 7px solid white;
+    margin: auto;
+}
+
+.deco-tablette-bas {
+    width: 252.5px;
+    height: 20px;
+    border-bottom: 7px solid white;
+    border-left: 7px solid white;
+    margin: auto;
+}
+
+.deco-tablette-middleh {
+    width: 252.5px;
+    height: 15px;
+    border-bottom: 0px solid white;
+    border-left: 7px solid white;
+    margin: auto;
+}
+
+.deco-tablette-middleb {
+    width: 252.5px;
+    height: 20px;
+    border-top: 7px solid white;
+    border-right: 7px solid white;
+    margin: auto;
+}
+.contenuetitreleft::before {
+    content: "";
+    width: 500px;
+    height: 340px;
+}
+
+.contenuetitreright::before {
+    content: "";
+    width: 500px;
+    height: 340px;
 }
 
 .pictotitre {
-    margin-bottom: 25px;
-    padding-top: 104px;
+    margin-bottom: 12.5px;
     text-align: center;
 }
 
-.left {
-    width: 500px;
-    margin-top: 60px;
-    height: 340px;
-    position: relative;
-    margin-top: 60px;
-    display: inline-block;
+.contenuetitreleft a {
     text-align: center;
+
 }
 
-.right {
-    width: 500px;
-    margin-top: 60px;
-    height: 340px;
-    position: relative;
-    display: inline-block;
-    text-align: center;
+span.icon1.icon-chef-oeuvre::before {
+    margin: auto;
 }
 
-.contenutitreright {
-    display: inline-block;
-    position: absolute;
-    height: 340px;
+span.icon1.icon-parcours::before {
+    margin: auto;
+}
+
+
+h2.titre2 {
+    font-family: lovelo;
+    line-height: normal;
+    font-size: 1.5rem
+}
+
+.contenuetitreleft a, .contenuetitreright a, h2.titre2 {
+    color: #FFF;    
+}
+
+
+
+
+/*-------------------------------------------------navbar pc---------------------------------------------*/
+
+select.selectlanguage {
+    -moz-appearance:none;
+}
+
+a.links {
+    border-bottom: none;
+}
+
+span.logo-lille {
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+ul.navbarpc {
+    margin: auto;
+    padding-left: 0;
+    list-style-type: none;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 35%;
+}
+
+li#margelink, li#margelink2  {
+    margin-left: 10%;
+
+}
+
+/*------------------------------------------main---------------------------------------*/
+
+div.bg-image {
+    background-image: url(../img/pc/PBA.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 405px;
     width: 100%;
-    left: 0;
-    top: 0;
-    border-top: 16px solid #FFF;
-    border-left: 16px solid #FFF;
-    height: 40px;
-}
-
-.contenutitreright2 {
-    display: inline-block;
-    position: absolute;
-    height: 340px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    border-bottom: 16px solid #FFF;
-    border-left: 16px solid #FFF;
-    height: 40px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.2) inset;
 }
