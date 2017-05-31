@@ -1,29 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  </head>
-  <body>
-
-
-    <!-- START HEADER -->
-
-
-
-    <!-- END HEADER -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="agenda.css">
+  <link rel="shortcut icon" href="pbafavicon.ico" type="image/x-icon">
+  <link rel="icon" href="pbafavicon.ico" type="image/x-icon">
+  <title>Agenda - Palais des Beaux Arts de Lille</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
 
 
-    <!-- START MAIN -->
+  <!-- START HEADER -->
+
+  <header class="entete w-100">
+
+    <figure class="no-mobile titre1">
+      <img src="img/titre.png" alt="titre">
+    </figure>
+
+
+    <!--  nav non mobile -->
+    <ul class="no-mobile menu">
+      <li><a href="index.html">COLLECTIONS</a></li>
+      <li><a href="visiter.html">VISITER</a></li>
+      <li><a href="#">AGENDA</a></li>
+      <li><a href="#">INFOS</a></li>
+    </ul>
+
+    <form class="no-mobile form">
+      <div class="search">
+        <input type="search" name="" value="">
+        <span class="icon flaticon-uniE92A"></span>
+      </div>
+    </form>
+    <div class="langueselect no-mobile">
+      <ul>
+        <li>
+          <i class="fa fa-angle-down" style="font-size:24px"></i><a href="#">français
+
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--  nav of mobile and tablette  -->
+    <div class="nav-mobile-right">
+      <div class="search">
+        <a href="#"> <i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+
+      </div>
+      <div class="info">
+        <a href="#"><i class="fa fa-info-circle fa-2x " aria-hidden="true "></i></a>
 
 
 
-    <!-- START SECTION 1 -->
-    <div class="container">
+
+
+      </div>
+
+
+      <div class="button-burger">
+        <button onclick="myFunction()"  class="dropbtn"> <i class="fa fa-bars fa-x " aria-hidden="true "></i></button>
+        <div id="monmenu" class="menu-cache">
+          <a href="#"><span class="icon flaticon-uniE905"></span> Collections</a>
+          <a href="visiter.html"><span class="icon flaticon-uniE922"></span> Visiter</a>
+          <a href="#"><span class="icon flaticon-uniE92B"></span> Agenda</a>
+          <a href="#"><span class="icon flaticon-uniE92B"></span>contactez-nous</a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <aside class="logo-palais">
+
+    </aside>
+
+
+
+  </header>
+
+
+  <!-- END HEADER -->
+
+
+  <!-- START MAIN -->
+  <div class="container">
+    <div class="row">
+
+      <section class="col-12">
+        
+      </section>
+
+    </div>
+  </div>
+
+  <!-- START SECTION 1 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -37,11 +113,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 1 -->
+  </div>
+  <!-- END SECTION 1 -->
 
-    <!-- START SECTION 2 -->
-    <div class="container">
+  <!-- START SECTION 2 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -55,11 +131,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 2 -->
+  </div>
+  <!-- END SECTION 2 -->
 
-    <!-- START SECTION 3 -->
-    <div class="container">
+  <!-- START SECTION 3 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -72,11 +148,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 3 -->
+  </div>
+  <!-- END SECTION 3 -->
 
-    <!-- START SECTION 4 -->
-    <div class="container">
+  <!-- START SECTION 4 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -90,11 +166,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 4 -->
+  </div>
+  <!-- END SECTION 4 -->
 
-    <!-- START SECTION 5 -->
-    <div class="container">
+  <!-- START SECTION 5 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -108,11 +184,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 5 -->
+  </div>
+  <!-- END SECTION 5 -->
 
-    <!-- START SECTION 6 -->
-    <div class="container">
+  <!-- START SECTION 6 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -126,11 +202,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 6 -->
+  </div>
+  <!-- END SECTION 6 -->
 
-    <!-- START SECTION 7 -->
-    <div class="container">
+  <!-- START SECTION 7 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -144,11 +220,11 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 7 -->
+  </div>
+  <!-- END SECTION 7 -->
 
-    <!-- START SECTION 8 -->
-    <div class="container">
+  <!-- START SECTION 8 -->
+  <div class="container">
     <div class="row">
 
       <section class="col-4">
@@ -161,21 +237,21 @@
       </section>
 
     </div>
-    </div>
-    <!-- END SECTION 8 -->
+  </div>
+  <!-- END SECTION 8 -->
 
 
-    <!-- END MAIN -->
+  <!-- END MAIN -->
 
 
-    <!-- START FOOTER -->
+  <!-- START FOOTER -->
 
-    <!-- END FOOTER -->
+  <!-- END FOOTER -->
 
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 </html>
