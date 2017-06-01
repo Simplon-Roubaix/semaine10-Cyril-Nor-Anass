@@ -3,23 +3,129 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>LeBonCoin</title>
+        <title>Palais des Beaux Arts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="js/jquery-3.2.1.min.js">
-        <link rel="stylesheet" href="js/bootstrap.min.js">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+
         
     </head>
 
     <body>
 
+        <header>
+
+            <!-- #################################"navbar tablette/smartphone -->
+
+            <nav class="hidden-lg-up navbar navbar-toggleable-md navbar-light bg-faded">
+                
+                <a class="icon" href="#"><img src="img/pc/logo-lille.svg" width="27px" height="50px"></a>
+                    <a class="icon-search" href="#"></a>
+                    <a class="icon-infos" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="hidden-lg-up icon-chef-oeuvre">Accueil</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="hidden-lg-up icon-parcours">Visiter</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="hidden-lg-up icon-agenda">Agenda</span></a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="hidden-lg-down form-control mr-sm-2" type="text">
+                    </form>
+                </div>
+            </nav> 
+
+            <!-- #################################fin navbar tablette/smartphone -->
+
+<!--################################################### navbar pc -->
+
+            <nav class="hidden-md-down navbar navbar-toggleable-md navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="logo-lille">palais beaux - arts lille</span></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                    <ul class="navbarpc" class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="links" class="nav-link" href="#"><span class="hidden-lg-up icon-chef-oeuvre"></span>Accueil</a>
+                        </li>
+                        <li id="margelink" class="nav-item">
+                            <a class="links" class="nav-link" href="#"><span class="hidden-lg-up icon-parcours"></span> Vister</a>
+                        </li>
+                        <li id="margelink2" class="nav-item">
+                            <a class="links" class="nav-link" href="#"><span class="hidden-lg-up icon-agenda"></span>Agenda</a>
+                        </li>
+                    </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="hidden-md-down form-control mr-sm-2" type="text">
+                </form>
+                <select class="selectlanguage">
+                    <option value="FR">Français</option>
+                    <option value="EN">English</option>
+                    <option value="DU">Dutch</option>
+                </select>
+
+                <a href="#"><img src="img/pc/logo-lille.svg" width="56px" height="73px"></a>
+
+                </div>
+            </nav> 
+
+            <!-- ##########################################fin navbar pc -->
+        </header>
+
+        <main>
+            <div class="bg-image">
+                <div class="container">
+                    <h1 class="titre">palais beaux- arts lille</h1>
+                </div>
+                <div class="left">
+                    <div class="deco-tablette-haut"></div>
+                    <div class="contenuetitreleft">
+                        <a href="#">
+                            <div class="pictotitre">
+                                <span class="icon1 icon-chef-oeuvre"></span>
+                            </div>
+                            <h2 class="titre2">collections</h2>
+                            <p class="soustitre">DÉcouvrez les Œuvres</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="deco-tablette-middleh"></div>
+                <div class="deco-tablette-middleb"></div>
+
+                <div class="right">
+                    <div class="contenuetitreright">
+                        <a href="#">
+                            <div class="pictotitre">
+                                <span class="icon1 icon-parcours"></span>
+                                <h2 class="titre2">visiter</h2>
+                                <p class="soustitre">Infos / parcours / applications</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="deco-tablette-bas"></div>
+            </div>
+        </main>
+
         
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/bootstrap.js"></script>
     
     </body>
 
