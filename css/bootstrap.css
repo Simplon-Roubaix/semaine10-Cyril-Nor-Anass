@@ -4378,6 +4378,8 @@ tbody.collapse.show {
 
 .card {
   position: relative;
+  width: 100%;
+  height: 400px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4387,9 +4389,6 @@ tbody.collapse.show {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
 }
 
 .card-block {
@@ -5819,7 +5818,7 @@ button.close {
 .carousel-item {
   position: relative;
   display: none;
-  width: 100%;
+  width: 560px;
 }
 
 @media (-webkit-transform-3d) {
@@ -6178,6 +6177,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
 .d-block {
   display: block !important;
+  width: 560px;
 }
 
 .d-table {
