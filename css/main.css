@@ -19,8 +19,13 @@ select {
 }
 
 .icon-chef-oeuvre::before, .icon-agenda::before, .icon-parcours::before, .icon-search::before,
- .icon-infos::before, span.logo-lille, h1.titre  {
+ .icon-infos::before, .icon-parent::before, span.logo-lille, h1.titre  {
     font-family: pba
+}
+
+
+.contenuetitreleft a, .contenuetitreright a, h2.titre2, p.soustitre, strong.soustitre {
+    color: #FFF;    
 }
 
 /*----------------------------------------navbar tablette/smartphone-----------------------------------*/
@@ -67,7 +72,7 @@ ul.navbar-nav {
 }
 
 .icon-chef-oeuvre::before, .icon-agenda::before, .icon-parcours::before, .icon-search::before, 
-.icon-infos::before {
+.icon-infos::before, .icon-parent::before {
     font-size: 1.5rem;
     color: #FFF;
 }
@@ -93,6 +98,10 @@ ul.navbar-nav {
 
 .icon-infos::before {
     content: "\e938";
+}
+
+.icon-parent::before {
+    content: "\e923";
 }
 
 form input.form-control {
@@ -190,9 +199,6 @@ h2.titre2 {
     font-size: 1.5rem
 }
 
-.contenuetitreleft a, .contenuetitreright a, h2.titre2 {
-    color: #FFF;    
-}
 
 /*------------------------------------------------fin 1er Block-----------------------------------*/
 
@@ -208,8 +214,27 @@ height: 400px;
 
 
 
+.deco-tablette-haut2 {
+    width: 498px;
+    height: 20px;
+    border-top: 7px solid white;
+    border-right: 7px solid white;
+    border-left: 7px solid white;
+    margin: 10% auto
+}
 
-/*-------------------------------------------------navbar pc---------------------------------------------
+.deco-tablette-bas2 {
+    width: 498px;
+    height: 20px;
+    border-bottom: 7px solid white;
+    border-right: 7px solid white;
+    border-left: 7px solid white;
+    margin: 10% auto;
+}
+
+
+
+/*-------------------------------------------------navbar pc---------------------------------------------*/
 
 select.selectlanguage {
     -moz-appearance:none;
